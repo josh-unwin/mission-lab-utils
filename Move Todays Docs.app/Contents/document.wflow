@@ -82,7 +82,7 @@
 					<key>source</key>
 					<string></string>
 					<key>temporary items path</key>
-					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/C11D4A60-974C-40EC-BC12-4D213769909C/1/com.apple.RunShellScript</string>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.RunShellScript</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
@@ -249,7 +249,7 @@
 				<key>ActionRuntimeParameters</key>
 				<dict>
 					<key>temporary items path</key>
-					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/C11D4A60-974C-40EC-BC12-4D213769909C/1/com.apple.Automator.SetValueofVariable</string>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.Automator.SetValueofVariable</string>
 					<key>variableUUID</key>
 					<string>0A168D66-7BEE-48E5-8976-0801DFA7C3AE</string>
 				</dict>
@@ -383,7 +383,7 @@
 					<key>source</key>
 					<string></string>
 					<key>temporary items path</key>
-					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/C11D4A60-974C-40EC-BC12-4D213769909C/1/com.apple.RunShellScript</string>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.RunShellScript</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
@@ -550,7 +550,7 @@
 				<key>ActionRuntimeParameters</key>
 				<dict>
 					<key>temporary items path</key>
-					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/C11D4A60-974C-40EC-BC12-4D213769909C/1/com.apple.Automator.SetValueofVariable</string>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.Automator.SetValueofVariable</string>
 					<key>variableUUID</key>
 					<string>1BA4E655-02E7-4F53-A417-EF0BD29852A8</string>
 				</dict>
@@ -667,7 +667,7 @@
 				<key>ActionRuntimeParameters</key>
 				<dict>
 					<key>temporary items path</key>
-					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/C11D4A60-974C-40EC-BC12-4D213769909C/1/com.apple.Automator.GetValueofVariable</string>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.Automator.GetValueofVariable</string>
 					<key>variableUUID</key>
 					<string>YYYYMMDD_MAINUNIT_SHOOTDAY_XX1</string>
 				</dict>
@@ -782,7 +782,7 @@
 				<key>ActionRuntimeParameters</key>
 				<dict>
 					<key>temporary items path</key>
-					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/C11D4A60-974C-40EC-BC12-4D213769909C/1/com.apple.Automator.GetValueofVariable</string>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.Automator.GetValueofVariable</string>
 					<key>variableUUID</key>
 					<string>/Users/joshunwin/Desktop/MEDIARAID</string>
 				</dict>
@@ -918,7 +918,7 @@
 					<key>questionText</key>
 					<string>Moving today's docs to YYYYMMDD_MAINUNIT_SHOOTDAY_XX1</string>
 					<key>temporary items path</key>
-					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/C11D4A60-974C-40EC-BC12-4D213769909C/1/com.apple.Automator.AskforConfirmation</string>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.Automator.AskforConfirmation</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AskforConfirmation</string>
@@ -1094,6 +1094,26 @@ open "$folderPath"/03_DOCUMENTATION</string>
 					<key>source</key>
 					<string></string>
 				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>folderPath=$1/$2
+mkdir "$folderPath"
+mkdir "$folderPath"/03_DOCUMENTATION
+cp -R $HOME/Desktop/_TODAY/. "$folderPath"/03_DOCUMENTATION
+
+open "$folderPath"/03_DOCUMENTATION</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/zsh</string>
+					<key>source</key>
+					<string></string>
+					<key>temporary items path</key>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.RunShellScript</string>
+				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
 				<key>CFBundleVersion</key>
@@ -1256,6 +1276,17 @@ open "$folderPath"/03_DOCUMENTATION</string>
 					<key>title</key>
 					<string>Today's docs successfully moved!</string>
 				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>message</key>
+					<string></string>
+					<key>subtitle</key>
+					<string></string>
+					<key>temporary items path</key>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.Automator.Display-Notification</string>
+					<key>title</key>
+					<string>Today's docs successfully moved!</string>
+				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Display-Notification</string>
 				<key>CFBundleVersion</key>
@@ -1334,64 +1365,581 @@ open "$folderPath"/03_DOCUMENTATION</string>
 			<key>isViewVisible</key>
 			<false/>
 		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<dict/>
+					<key>displayWarning</key>
+					<dict/>
+					<key>explanationText</key>
+					<dict/>
+					<key>negativeTitle</key>
+					<dict/>
+					<key>questionText</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Do you want to empty your _TODAY folder?</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Confirmation.action</string>
+				<key>ActionName</key>
+				<string>Ask for Confirmation</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<string>OK</string>
+					<key>displayWarning</key>
+					<false/>
+					<key>explanationText</key>
+					<string>If you have a zip file on the desktop called _TODAY.zip this will be used as a template to repopulate the folder. Files will be moved to Trash.</string>
+					<key>negativeTitle</key>
+					<string>Cancel</string>
+					<key>questionText</key>
+					<string>Do you want to empty your _TODAY folder?</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>affirmativeTitle</key>
+					<string>OK</string>
+					<key>displayWarning</key>
+					<false/>
+					<key>explanationText</key>
+					<string>If you have a zip file on the desktop called _TODAY.zip this will be used as a template to repopulate the folder. Files will be moved to Trash.</string>
+					<key>negativeTitle</key>
+					<string>Cancel</string>
+					<key>questionText</key>
+					<string>Do you want to empty your _TODAY folder?</string>
+					<key>temporary items path</key>
+					<string>/var/folders/jp/ng_trg213f3bsgfpyy77lkrr0000gn/T/193264B3-B29E-4EFC-B919-A2A3DD1DFCCC/1/com.apple.Automator.AskforConfirmation</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.AskforConfirmation</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForConfirmationAction</string>
+				<key>InputUUID</key>
+				<string>5A8A0534-6430-44BD-BF54-AC93B388F996</string>
+				<key>Keywords</key>
+				<array>
+					<string>Message</string>
+					<string>Ask</string>
+					<string>Display</string>
+					<string>Prompt</string>
+					<string>Show</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>035F7B46-E473-42FC-B775-B69884B5E77F</string>
+				<key>UUID</key>
+				<string>E698DD50-ECF3-4679-B1CE-25948D614AB8</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>Cancel</string>
+						<key>name</key>
+						<string>negativeTitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>displayWarning</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>explanationText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>OK</string>
+						<key>name</key>
+						<string>affirmativeTitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>questionText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:1103.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>mv $HOME/Desktop/_TODAY/* $HOME/.Trash
+
+TEMPLATE=$HOME/Desktop/_TODAY.zip
+if [ -f "$TEMPLATE" ]; then
+	 rm -r $HOME/Desktop/_TODAY
+     unzip $TEMPLATE -d $HOME/Desktop/ -x __MACOSX -x '__MACOSX/*'
+fi</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/zsh</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>68FA2750-FCC2-4720-A605-977511E4657D</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>D65FD16D-9775-4C2D-AA8F-6314604DDA8F</string>
+				<key>UUID</key>
+				<string>E8E26B69-644E-4BC1-98B8-7F5765A1969E</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:1465.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>message</key>
+					<dict/>
+					<key>subtitle</key>
+					<dict/>
+					<key>title</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Trashed docs in _TODAY folder!</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Display Notification.action</string>
+				<key>ActionName</key>
+				<string>Display Notification</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>message</key>
+					<string></string>
+					<key>subtitle</key>
+					<string></string>
+					<key>title</key>
+					<string>Trashed docs in _TODAY folder!</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Display-Notification</string>
+				<key>CFBundleVersion</key>
+				<string>1.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMDisplayNotificationAction</string>
+				<key>InputUUID</key>
+				<string>DF5A0C5A-3699-4FD4-9F9D-DFBC65ACE293</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>AE9BBABC-E7A4-4E49-BC91-4D367C15EEDD</string>
+				<key>UUID</key>
+				<string>A7AA64E7-D7F7-4692-B4B7-C68AED216B02</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>message</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>subtitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>title</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:1654.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>23E811B3-6F24-4FB0-9D82-342AC892587B</key>
+		<key>0CBAAB54-30FB-4885-A053-62BBC5CE06E2</key>
+		<dict>
+			<key>from</key>
+			<string>3ECF3E3D-C699-4ABB-88E7-E72377DB8A76 - 3ECF3E3D-C699-4ABB-88E7-E72377DB8A76</string>
+			<key>to</key>
+			<string>6698F598-443D-4A85-808D-3E09BEDF5F6E - 6698F598-443D-4A85-808D-3E09BEDF5F6E</string>
+		</dict>
+		<key>29160DE3-9B05-4A6E-9FD7-4664E3AEAD4E</key>
+		<dict>
+			<key>from</key>
+			<string>E8E26B69-644E-4BC1-98B8-7F5765A1969E - E8E26B69-644E-4BC1-98B8-7F5765A1969E</string>
+			<key>to</key>
+			<string>A7AA64E7-D7F7-4692-B4B7-C68AED216B02 - A7AA64E7-D7F7-4692-B4B7-C68AED216B02</string>
+		</dict>
+		<key>2D886AC1-2A4E-4439-B4E7-CB76CE220E5D</key>
 		<dict>
 			<key>from</key>
 			<string>D18CFFFD-C3E9-4388-AA33-546A2E00DA4A - D18CFFFD-C3E9-4388-AA33-546A2E00DA4A</string>
 			<key>to</key>
 			<string>F4312EC9-27FA-4DE3-9162-60F0B16787CA - F4312EC9-27FA-4DE3-9162-60F0B16787CA</string>
 		</dict>
-		<key>26CA11EF-E7EB-486A-9DD4-CAB7D6BE6DAD</key>
+		<key>334DEE16-092C-4B88-BC57-EA0DEA476912</key>
+		<dict>
+			<key>from</key>
+			<string>F4312EC9-27FA-4DE3-9162-60F0B16787CA - F4312EC9-27FA-4DE3-9162-60F0B16787CA</string>
+			<key>to</key>
+			<string>483C05EF-50B7-49B9-B005-B562AFA602FE - 483C05EF-50B7-49B9-B005-B562AFA602FE</string>
+		</dict>
+		<key>42057B1C-6E9E-49F9-9442-0C0B876B729A</key>
+		<dict>
+			<key>from</key>
+			<string>CF4B12CB-4F61-4B27-8406-CEFCAA0F9A46 - CF4B12CB-4F61-4B27-8406-CEFCAA0F9A46</string>
+			<key>to</key>
+			<string>E698DD50-ECF3-4679-B1CE-25948D614AB8 - E698DD50-ECF3-4679-B1CE-25948D614AB8</string>
+		</dict>
+		<key>6E0FECD1-8564-49EB-A62A-2D2D57922315</key>
+		<dict>
+			<key>from</key>
+			<string>483C05EF-50B7-49B9-B005-B562AFA602FE - 483C05EF-50B7-49B9-B005-B562AFA602FE</string>
+			<key>to</key>
+			<string>EF96E43C-C1EB-4270-B345-5EB936BEF254 - EF96E43C-C1EB-4270-B345-5EB936BEF254</string>
+		</dict>
+		<key>7DD7ADEF-214C-4EAB-A405-5EEC8AFEE2DB</key>
+		<dict>
+			<key>from</key>
+			<string>27F98835-E906-47F6-B519-87F377B28144 - 27F98835-E906-47F6-B519-87F377B28144</string>
+			<key>to</key>
+			<string>3ECF3E3D-C699-4ABB-88E7-E72377DB8A76 - 3ECF3E3D-C699-4ABB-88E7-E72377DB8A76</string>
+		</dict>
+		<key>851721D6-A42C-4387-9483-37D257052EA8</key>
+		<dict>
+			<key>from</key>
+			<string>E698DD50-ECF3-4679-B1CE-25948D614AB8 - E698DD50-ECF3-4679-B1CE-25948D614AB8</string>
+			<key>to</key>
+			<string>E8E26B69-644E-4BC1-98B8-7F5765A1969E - E8E26B69-644E-4BC1-98B8-7F5765A1969E</string>
+		</dict>
+		<key>A598AB6B-CDDB-41C5-B57B-2E49362F0E89</key>
 		<dict>
 			<key>from</key>
 			<string>E05BB206-88C3-44E2-A312-37B36DA7F86A - E05BB206-88C3-44E2-A312-37B36DA7F86A</string>
 			<key>to</key>
 			<string>27F98835-E906-47F6-B519-87F377B28144 - 27F98835-E906-47F6-B519-87F377B28144</string>
 		</dict>
-		<key>68223237-DCEE-48CA-9C49-1B851BB7B330</key>
-		<dict>
-			<key>from</key>
-			<string>483C05EF-50B7-49B9-B005-B562AFA602FE - 483C05EF-50B7-49B9-B005-B562AFA602FE</string>
-			<key>to</key>
-			<string>EF96E43C-C1EB-4270-B345-5EB936BEF254 - EF96E43C-C1EB-4270-B345-5EB936BEF254</string>
-		</dict>
-		<key>717770AC-8136-4008-BCE3-423FE53902BA</key>
-		<dict>
-			<key>from</key>
-			<string>27F98835-E906-47F6-B519-87F377B28144 - 27F98835-E906-47F6-B519-87F377B28144</string>
-			<key>to</key>
-			<string>3ECF3E3D-C699-4ABB-88E7-E72377DB8A76 - 3ECF3E3D-C699-4ABB-88E7-E72377DB8A76</string>
-		</dict>
-		<key>84278D8F-A55C-4FB0-81E6-41C33A2287B0</key>
-		<dict>
-			<key>from</key>
-			<string>F4312EC9-27FA-4DE3-9162-60F0B16787CA - F4312EC9-27FA-4DE3-9162-60F0B16787CA</string>
-			<key>to</key>
-			<string>483C05EF-50B7-49B9-B005-B562AFA602FE - 483C05EF-50B7-49B9-B005-B562AFA602FE</string>
-		</dict>
-		<key>A0B9E124-6540-497D-B590-4BD456142166</key>
+		<key>AAACA814-C161-4A1B-8DDC-91BC2F62FC21</key>
 		<dict>
 			<key>from</key>
 			<string>6698F598-443D-4A85-808D-3E09BEDF5F6E - 6698F598-443D-4A85-808D-3E09BEDF5F6E</string>
 			<key>to</key>
 			<string>D18CFFFD-C3E9-4388-AA33-546A2E00DA4A - D18CFFFD-C3E9-4388-AA33-546A2E00DA4A</string>
 		</dict>
-		<key>D0C1F193-1888-46AF-8811-B1879419C5D8</key>
+		<key>E94CAE6B-98D0-41C8-877F-1AB7E10D4EBC</key>
 		<dict>
 			<key>from</key>
 			<string>EF96E43C-C1EB-4270-B345-5EB936BEF254 - EF96E43C-C1EB-4270-B345-5EB936BEF254</string>
 			<key>to</key>
 			<string>CF4B12CB-4F61-4B27-8406-CEFCAA0F9A46 - CF4B12CB-4F61-4B27-8406-CEFCAA0F9A46</string>
-		</dict>
-		<key>FF913C6B-FDB4-40AF-A82B-456007F94BF1</key>
-		<dict>
-			<key>from</key>
-			<string>3ECF3E3D-C699-4ABB-88E7-E72377DB8A76 - 3ECF3E3D-C699-4ABB-88E7-E72377DB8A76</string>
-			<key>to</key>
-			<string>6698F598-443D-4A85-808D-3E09BEDF5F6E - 6698F598-443D-4A85-808D-3E09BEDF5F6E</string>
 		</dict>
 	</dict>
 	<key>variables</key>
