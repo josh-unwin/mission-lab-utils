@@ -1,7 +1,7 @@
 ## Mission Lab Utilities
 This is the very start of a collection of simple Automator programs to help with simple, repeatable steps in a Mission lab/on set workflow.
 
-It is based around the idea of storing some 'variables' in simple text files in a $HOME/lab_config folder.
+It is based around the idea of storing some 'variables' in simple text files in a `$HOME/lab_config folder`.
 
 
 Here is a brief summary of each applet:
